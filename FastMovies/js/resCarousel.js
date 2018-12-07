@@ -1,3 +1,15 @@
+//scroll até collapse do destaque da semana
+$('.details a').click(function() {
+  $('#collapseExample4').collapse('toggle');
+  $('html,body').animate({scrollTop:$(this.hash).offset().top}, 1300);
+});
+
+//scroll da barra de menu principal
+$('a[href*=\\#]').on('click', function(event){     
+    event.preventDefault();
+    $('html,body').animate({scrollTop:$(this.hash).offset().top}, 1300);
+});
+
 //resCarousel
 $(document).ready(function() {
   ResCarouselOnInit();

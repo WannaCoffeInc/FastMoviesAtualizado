@@ -5,7 +5,7 @@ $('.details a').click(function() {
 });
 
 //scroll da barra de menu principal
-$('a[href*=\\#]').on('click', function(event){     
+$('.nav1 a[href*=\\#]').on('click', function(event){     
     event.preventDefault();
     $('html,body').animate({scrollTop:$(this.hash).offset().top}, 1300);
 });

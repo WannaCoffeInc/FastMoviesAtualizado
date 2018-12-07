@@ -384,7 +384,7 @@ a.information {
 
 .yt_icon {
     left: 30px;
-    top: 300px;
+    top: 405px;
     width: 35px;
     height: 22px;
     display: inline-block;
@@ -398,7 +398,7 @@ a.trailer {
     font-size: 1vw;
     font-weight: lighter;
     left: 70px;
-    top: 302px;
+    top: 401px;
 
 }
 
@@ -479,11 +479,13 @@ a.trailer {
     left: 2.5%;
     right: 2.5%;
     transform: (-2.5%, -2.5%);
+    overflow-y: scroll;
+    max-height: 350px;
 }
 
 .label {
     color: white;
-    padding: 7px;
+    padding: 4px;
     font-family: Arial;
     border-radius: .4em;
     font-size: 10pt;
@@ -804,6 +806,28 @@ h3 i {
         line-height: 0px;
         font-size: 9px;
     }
+}
+
+/* infohorarios */
+.Cinema {
+    margin-top: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+
+.nomeCinema {
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.cinemaHorarios {
+    margin-top: 10px;
+    margin-left: 10px
+}
+
+.cinemaHorario {
+    padding-right: 10px;
 }
 
 /*resCarousel Css End*/

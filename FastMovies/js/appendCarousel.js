@@ -1,22 +1,12 @@
 const filmes = [{
         id: 1,
-        titulo: 'O Grinch',
-        posterUrl: 'moviePosters/grinch.jpg',
-        background: 'moviePosters/0bdad8a01055d795d2cf0e275cf41751.png',
-        genero: 'Animação | Comédia',
-        sinopse: 'O Grinch é um ser verde que não suporta o Natal e, todo ano, precisa aturar que os habitantes da cidade vizinha de Quemlândia comemoram a data. Decidido a acabar com a festa, ele resolve invadir os lares dos vizinhos e roubar tudo o que está relacionado ao Natal.',
-        imdb_score: '5.0',
-        publico: 'L'
+        titulo: 'Animais Fantásticos: Os Crimes de Grindelwald',
+        posterUrl: 'moviePosters/animaisfantasticos.png',
     },
     {
         id: 2,
-        titulo: 'O Quebra-Nozes e os Quatro Reinos',
-        posterUrl: 'moviePosters/quebraNozes.jpg',
-        background: 'moviePosters/0bdad8a01055d795d2cf0e275cf41751.png',
-        genero: 'Animação | Comédia',
-        sinopse: 'O Grinch é um ser verde que não suporta o Natal e, todo ano, precisa aturar que os habitantes da cidade vizinha de Quemlândia comemoram a data. Decidido a acabar com a festa, ele resolve invadir os lares dos vizinhos e roubar tudo o que está relacionado ao Natal.',
-        imdb_score: '5.0',
-        publico: 'L'
+        titulo: 'Robin Hood - A Origem',
+        posterUrl: 'moviePosters/robinhood.png',
     },
     {
         id: 3,

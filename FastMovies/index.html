@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="./css/navbar.css" />
     <link rel="stylesheet" href="./css/emBreveCarrossel.css">
     <link rel="stylesheet" href="css/destaqueInicio.css">
+    <link rel="stylesheet" href="css/newNav.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -47,208 +48,41 @@
             </form>
         </div>
     </div> -->
+<div class="navbar navbar-inverse navbar-fixed-top opaque-navbar" style=" height: 85px;">
+  <div class="container" id="navBartop">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navMain">
+  <span class="glyphicon glyphicon-chevron-right" style="color:white;"></span>
+    
+  </button>
+      <div class="navbar-brand" href="#"></div>
+        <!-- img class="logoFM"src="css/fastmovies_icon.png"></a> -->
+    </div>
+    <div class="collapse navbar-collapse" id="navMain">
+      <ul class="nav nav1 navbar-nav pull-right">
+<!--         <li class="active" style="border: none;"><a href="#return-to-top" style="color: white; font-size: 1vw;">Início</a></li> -->
+        <li  style="border: none;"><a href="#emCartaz" style="color: white; font-size: 1vw;">Em Cartaz</a></li> 
+        <li  style="border: none;"><a href="#emAlta" style="color: white; font-size: 1vw;">Em Alta</a></li> 
+        <li  style="border: none;"><a href="#emBreve" style="color: white; font-size: 1vw;">Próximos Lançamentos</a></li> 
+        <li  style="border: none;"><a href="#news" style="color: white; font-size: 1vw;">Notícias e Reviews</a></li>
+        <li  style="border: none;"><a href="./about.html" target="blank" style="color: white; font-size: 1vw;">Sobre o FastMovies</a></li> 
+      </ul>
+    </div>
+  </div>
+</div>
     <!-- Navbar -->
 
-    <!-- header-start -->
-    <header>
-        <div class="header-top-area" style="">
-            <div class="container" style=" width: 100%;">
-                <div class="row" style=" max-width: 100%;">
-                    <div class="col-lg-3 col-md-3 col-sm-12 col-12" style="margin-left: 50px; margin-top: -20px; ">
-                        <div class="logo">
-                            <a href="index.html">
-                                <img src="css/fastmovies_icon.png" alt="" style="width: 250px;">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-5 col-md-7 col-sm-12 col-12 " style="margin-left: -200px; display: inline-block; margin-top: 20px;">
-                        <div class="menu d-none d-lg-block">
-                            <nav>
-                                <ul id="menu">
-                                    <li>
-                                        <a href="index.html">Home</a>
-<!--                                         <ul class="drop">
-                                            <li>
-                                                <a href="index.html">Home One</a>
-                                            </li>
-                                            <li>
-                                                <a href="02_index-2.html">Home Two</a>
-                                            </li>
-                                            <li>
-                                                <a href="03_index-3.html">Home Three</a>
-                                                <ul class="third">
-                                                    <li>
-                                                        <a href="#">demo</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">demo</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">demo</a>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                        </ul> -->
-                                    </li>
-                                    <li>
-                                        <a href="09_about.html">About</a>
-                                    </li>
-                                    <li>
-                                        <a href="05_feature-movie-grid.html">Movie Layout</a>
-<!--                                         <ul class="drop">
-                                            <li>
-                                                <a href="05_feature-movie-grid.html">Movie Grid</a>
-                                            </li>
-                                            <li>
-                                                <a href="06_feature-movie-list.html">Movie list</a>
-                                            </li>
-                                            <li>
-                                                <a href="04_movie-details.html">Movie Details</a>
-                                            </li>
-                                        </ul> -->
-                                    </li>
-                                    <li>
-                                        <a href="10_blog-page.html">Blog</a>
-<!--                                         <ul class="drop">
-                                            <li>
-                                                <a href="10_blog-page.html">Blog</a>
-                                            </li>
-                                            <li>
-                                                <a href="11_blog-details.html">Blog Details</a>
-                                            </li>
-                                        </ul> -->
-                                    </li>
-                                    <li class="mega">
-                                        <a href="#">Pages</a>
-                                        <!-- <ul class="mega-menu">
-                                            <li>
-                                                <a href="#">Column 1</a>
-                                                <ul>
-                                                    <li>
-                                                        <a href="index.html">Home One</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="02_index-2.html">Home Two</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="03_index-3.html">Home Three</a>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                <a href="#">Column 2</a>
-                                                <ul>
-                                                    <li>
-                                                        <a href="04_movie-details.html">Movie Details</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="05_feature-movie-grid.html">Movie Feature Grid</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="06_feature-movie-list.html">Movie Feature List</a>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                <a href="#">Column 3</a>
-                                                <ul>
-                                                    <li>
-                                                        <a href="07_celebrety-page.html">Celebrety Page</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="08_celebrety-details.html">Celebrety Details</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="09_about.html">About</a>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                <a href="#">Column 4</a>
-                                                <ul>
-                                                    <li>
-                                                        <a href="10_blog-page.html">Blog Page</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="11_blog-details.html">Blog Details</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="12_contact.html">Contact</a>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                        </ul> -->
-                                    </li>
-                                    <li>
-                                        <a href="12_contact.html">Contacts</a>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-<!--                     <div class="col-lg-2 col-md-2 col-sm-12 col-12">
-                        <div class="account">
-                            <a href="#">
-                                <span>
-                                    <i class="far fa-user"></i>
-                                </span>
-                            </a>
-                        </div>
-                    </div> -->
-<!--                     <div class="col-lg-3 col-md-4 col-sm-12 col-12">
-                        <div class="free-ticket">
-                            <a href="#">
-                                <span>
-                                    <i class="far fa-file-video"></i>
-                                </span> Friday Bigsow For Free !</a>
-                        </div>
-                    </div> -->
-                    <div class="col-lg-9 col-md-8 col-sm-12 col-12" style="width: 700px; display: inline-block; margin-top: 40px;">
-                        <div class="search-signup">
-                            <div class="search">
-                                <form action="#">
-                                    <div class="search-input-box">
-                                        <select>
-                                            <option>Movie</option>
-                                            <option>Serial</option>
-                                            <option>Drama</option>
-                                            <option>Bla</option>
-                                            <option>Bla</option>
-                                            <option>Bla</option>
-                                            <option>Bla</option>
-                                            <option>Bla</option>
-                                            <option>Bla</option>
-                                        </select>
-                                        <input type="text">
-                                        <button>
-                                            <i class="fas fa-search"></i>
-                                        </button>
-                                    </div>
-                                </form>
-                            </div>
-<!--                             <div class="signup">
-                                <a href="#">Sign up</a>
-                            </div> -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>    
-
-    <!-- ******************************************************************************************* -->
 <div class="header">
     <div class="overlayDestaque">
-       <div class="details" style="">
+       <div class="details" style="margin-top: 150px;">
           <!-- <img src="https://occ-0-769-768.1.nflxso.net/art/ce656/e3fd62b85404247b2af4a16dc899095b50bce656.webp" /> -->
-          <div class="titleDestaque">
-              <h1>Destaque</h1>
-              <h2>da Semana</h2>
+          <div class="titleDestaque" style="width: 100%;">
+              <h1>Destaque <h2>da Semana</h2> </h1>
           </div>
           <div class="rating" style="color: yellow;">★★★★☆</div>
           <div class="year">2018</div>
           <div class="seasons">Música | Biografia</div>
-          <div class="description" style="width: 32%; text-align:justify;">Freddie Mercury, Brian May, Roger Taylor e John Deacon formam a banda de rock Queen em 1970. Quando o estilo de vida agitado de Mercury começa a sair de controle, o grupo precisa encontrar uma forma de lidar com o sucesso e os excessos de seu líder.</div>
+          <div class="description" style="width: 40%; text-align:justify;">Freddie Mercury, Brian May, Roger Taylor e John Deacon formam a banda de rock Queen em 1970. Quando o estilo de vida agitado de Mercury começa a sair de controle, o grupo precisa encontrar uma forma de lidar com o sucesso e os excessos de seu líder.</div>
           <a data-toggle="collapse" href="#collapseExample4" role="button" style="float: left;">
             <i class="fas fa-plus-circle fa-3x" style="color: yellow; display: inline-block; margin-top: 10px;"></i>
           </a>          
@@ -300,7 +134,7 @@
     <br>
 
     <!--home-->
-    <div class="container"> <!-- style="width: 100%; margin: 0; padding: 0; -->
+    <div class="container" id="emCartaz"> <!-- style="width: 100%; margin: 0; padding: 0; -->
 
 <!--         <div class="col-md-12 divCartaz">
             <p style="margin: auto;">
@@ -2124,7 +1958,7 @@
         <!-- ************************************** FIM COLLAPSES DO CARROSSEL "EM CARTAZ" ********************** -->
     </div>
 
-    <div class="container" style="margin-top: 30px;">
+    <div class="container" style="margin-top: 30px;" id="emAlta">
 
 <!--         <div class="col-md-12 divCartaz">
             <p style="margin: auto;">
@@ -2298,7 +2132,7 @@
 <!-- ********************************************** EM BREVE ************************************************** -->
 <!-- upcoming-movie-area-start -->
     <div class="upcoming-movie-area" style="margin-top: -20px;">
-        <div class="container">
+        <div class="container" id="emBreve">
             <div class="row">
                 <div class="col-12">
                     <div class="section-title">
@@ -2490,7 +2324,7 @@
     
     <!-- news-area-start -->
     <div class="news-area" style="margin-top: -50px;">
-        <div class="container" style="margin-top: -20px; ">
+        <div class="container" id="news" style="margin-top: -20px;">
             <div class="row">
                 <div class="col-12">
                     <div class="section-title">
@@ -2678,20 +2512,20 @@
     <!-- Fim Novidades -->
 
     <!-- Scripts -->
-    <script src="http://pluginspoint.com/demo/i-finger-preview/05_film-town/js/jquery-3.2.0.min.js"></script> <!-- precisa -->
+    <!-- <script src="http://pluginspoint.com/demo/i-finger-preview/05_film-town/js/jquery-3.2.0.min.js"></script> --> 
     <script src="http://pluginspoint.com/demo/i-finger-preview/05_film-town/js/jquery-ui.js"></script> <!-- precisa -->
     <script src="http://pluginspoint.com/demo/i-finger-preview/05_film-town/js/owl.carousel.min.js"></script> <!-- precisa -->
     <script src="http://pluginspoint.com/demo/i-finger-preview/05_film-town/js/jquery.counterup.min.js"></script> <!-- precisa -->
     <script src="http://pluginspoint.com/demo/i-finger-preview/05_film-town/js/jquery.magnific-popup.min.js"></script> <!-- precisa -->
     <script src="http://pluginspoint.com/demo/i-finger-preview/05_film-town/js/jquery.slicknav.min.js"></script> <!-- precisa -->
     <script src="http://pluginspoint.com/demo/i-finger-preview/05_film-town/js/jquery.scrollUp.js"></script> <!-- precisa -->
-    <script src="http://pluginspoint.com/demo/i-finger-preview/05_film-town/js/bootstrap.min.js"></script> <!-- precisa -->
+    <!-- <script src="http://pluginspoint.com/demo/i-finger-preview/05_film-town/js/bootstrap.min.js"></script> --> <!-- precisa -->
     <script src="http://pluginspoint.com/demo/i-finger-preview/05_film-town/js/theme.js"></script> <!-- precisa -->
 
 
 <!-- ************************************************* FIM *****************************************************-->
    
-        <a href="javascript:" id="return-to-top"><i><span class="glyphicon glyphicon-chevron-up"></i></a> <!-- BACK TO TOP -->
+        <a class="toTop" href="javascript:" id="return-to-top"><i><span class="glyphicon glyphicon-chevron-up"></i></a> <!-- BACK TO TOP -->
 
 <!-- ********************************************** INÍCIO FOOTER ************************************************ -->
 
@@ -2739,12 +2573,29 @@
 
 <!-- ********************************************** SCRIPTS ************************************************ -->
 
-        <script type="text/javascript">
+    <!-- script para posicionar as imagens melhor dentros dos dois ultimos carroseis --> 
+
+        <script type="text/javascript"> 
             var conHeight = $(".imgPoster").height();
             var imgHeight = $(".imgPoster img").height();
             var gap = (imgHeight - conHeight) / 2;
             $(".imgPoster img").css("margin-top", -gap);
         </script>
+
+    <!-- script para fazer a barra de navegação se tornar sólida --> 
+
+        <script type="text/javascript">
+            $(window).scroll(function() {
+                if($(this).scrollTop() > 750)  /*height in pixels when the navbar becomes non opaque*/ 
+                {
+                    $('.opaque-navbar').addClass('opaque');
+                } else {
+                    $('.opaque-navbar').removeClass('opaque');
+                }
+            });
+        </script>
+
+    <!-- scripts dos primeiros carrosseis -->
 
         <script>
             //ResCarouselCustom();

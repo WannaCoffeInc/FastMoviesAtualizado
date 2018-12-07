@@ -516,7 +516,7 @@ a.trailer {
 
 /* Gray */
 
-#return-to-top {
+.toTop#return-to-top {
     position: fixed;
     bottom: 20px;
     right: 20px;

@@ -60,13 +60,13 @@
 
 h1 {
    font-family: 'Lobster', cursive;
-   font-size: 80pt;
-   padding: 60px;
+   font-size: 9vw;
+   padding-bottom: 6%;
 }
 
 h2 {
    font-family: 'Noticia Text', serif;
-   font-size: 72pt;
+   font-size: 6vw;
 }
 
 a:hover{
